@@ -1,0 +1,118 @@
+*{
+    margin: 0;                                               
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+    background-color: rgb(16, 18, 32);
+}
+
+.first_img{
+    height: 500px;
+    width: auto;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(122, 92, 138);
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+}
+
+nav a:hover{
+    background-image: linear-gradient(to right top, rgb(162, 135, 175), rgb(145, 3, 212));
+    color: rgb(255, 250, 224);
+    border-radius: 3px;
+    font-weight: 800;
+}
+
+h1{
+    color: rgb(162, 135, 175);
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+}
+
+h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(162, 135, 175);
+}
+
+h1 a:hover{
+    /*background-image: linear-gradient(to right top, rgb(162, 135, 175), rgb(145, 3, 212));*/
+    color: rgb(255, 250, 224);
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+p{
+    color: rgb(255, 246, 255);
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+section{
+    text-align: center;
+    height: 200px;
+    width: 800px;
+    margin-top: 40px;
+}
+
+.rodape{
+    padding-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(137, 3, 201);
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+}
+
+footer:hover{
+    background-image: linear-gradient(to right top, rgb(162, 135, 175), rgb(145, 3, 212));
+    font-weight: 800;
+}
+
+footer a{
+    color: rgb(255, 250, 222);
+    text-decoration: none;
+    text-transform: uppercase;
+}
